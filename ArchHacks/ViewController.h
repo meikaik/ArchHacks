@@ -10,6 +10,10 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+- (IBAction)buttonclicked:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *AddMealPage;
+@property (weak, nonatomic) IBOutlet UIButton *SettingsPage;
 
 @end
 
